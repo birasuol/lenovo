@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://www.gginformatica.com.br/ -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache no-svg no-inlinesvg no-smil no-svgclippaths" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GG INFORMÁTICA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="GGINFO">
+	<meta name="keywords" content="free bootstrap, html5, css3, mobile first, responsive">
+	<meta name="author" content="HTML5">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'> -->
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="./index_files/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="./index_files/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="./index_files/simple-line-icons.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="./index_files/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="./index_files/bootstrap.css">
+	<!-- Theme style -->
+	<link rel="stylesheet" href="./index_files/style.css">
+	<!-- Modernizr JS -->
+	<script src="./index_files/modernizr-2.6.2.min.js.transferir"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<style>
+		code {
+			background-color: rgba(0, 0, 0, 0.08);
+			border-radius: 3px;
+			display: inline-block;
+			font-family: "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
+			font-size: 0.875em;
+			font-weight: bold;
+			padding: 1px 6px;
+			vertical-align: baseline;
+		}
+	</style>
+	<!-- Google tag (gtag.js) -->
+	<script async="" src="./index_files/js"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-HXMNWTY0W0');
+	</script>
+</head>
+
+<body><a href="http://www.gginformatica.com.br/#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a><div id="fh5co-offcanvas"><a href="http://www.gginformatica.com.br/#" data-nav-section="home" class="active">Home</a><a href="http://www.gginformatica.com.br/#" data-nav-section="mission">Manutenção</a><a href="http://www.gginformatica.com.br/#" data-nav-section="services">Outros Serviços</a><a href="http://www.gginformatica.com.br/#" data-nav-section="team">Lojas</a><a href="http://www.gginformatica.com.br/#" data-nav-section="contact">Contato</a></div>
+	<!-- Modal Aviso  -->
+	<!-- Small modal -->
+	<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mySmall">Small modal</button> -->
+	<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="mySmall">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					<h4 class="modal-title" id="gridSystemModalLabel">MSG Enviada!</h4>
+				</div>
+				<div class="modal-body">
+					MSG, enviada em breve recebera retorno!<br>
+					caso queira entrar em contato TEL:(24)3321-1400 e (24)3321-1500
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	<!-- # Modal Aviso -->
+	<!-- Modal Contato -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					<h4 class="modal-title" id="exampleModalLabel">Contato GG INFO</h4>
+				</div>
+				<div class="modal-body">
+					<!--  Formulario MSG-->
+					<form id="sendmail">
+						<div class="form-group">
+							<label for="recipient-name" class="control-label">Email</label>
+							<input type="email" class="form-control" id="recipient-name" name="email" placeholder="Insira Seu email" required="required">
+						</div>
+						<div class="form-group">
+							<label for="recipient-name" class="control-label">Nome</label>
+							<input type="text" class="form-control" id="recipient-name" name="nome" placeholder="Insira seu nome" required="required">
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="control-label">Mensagem</label>
+							<textarea class="form-control" id="message-text" name="msg" placeholder="Insira sua MSG" required="required"></textarea>
+						</div>
+						<button type="submit" class="btn btn-default">Enviar</button>
+					</form>
+					<!--# Formulario -->
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- # Modal Contato -->
+	<!-- Loader -->
+	<div class="fh5co-loader" style="display: none;"></div>
+	<div class="fh5co-page">
+		<div id="fh5co-container">
+			<div id="fh5co-home" class="js-fullheight-home" data-section="home" style="background-image: url(&quot;images/hero_bg_jpg.jpg&quot;); height: 875px; background-position: 50% -25px;" data-stellar-background-ratio="0.5">
+				<div class="container">
+					<div class="col-md-6">
+						<div class="js-fullheight-home fh5co-copy" style="height: 875px;">
+							<div class="js-fullheight-home fh5co-copy-inner" style="height: 875px;">
+								<!-- <h1 style="text-shadow: 1px 1px 2px #900, 0 0 1em #FFF, 0 0 0.3em #FFF;">INFORMÁTICA</h1>
+								<h2>Serviços, Manutenção, Acessórios e Periféricos</h2> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="js-sticky" style="height: 70px;">
+				<div class="fh5co-main-nav">
+					<div class="container">
+						<div class="fh5co-menu-1">
+							<a href="http://www.gginformatica.com.br/#" data-nav-section="home" class="active">Home</a>
+							<a href="http://www.gginformatica.com.br/#" data-nav-section="mission">Manutenção</a>
+							<a href="http://www.gginformatica.com.br/#" data-nav-section="services">Outros Serviços</a>
+							<a href="http://www.gginformatica.com.br/#" data-nav-section="team">Lojas</a>
+							<a href="http://www.gginformatica.com.br/#" data-nav-section="contact">Contato</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="fh5co-about" data-section="mission">
+				<div class="fh5co-2col">
+					<div class="fh5co-2col-inner left">
+						<div class="fh5co-tabs-container">
+							<ul class="fh5co-tabs fh5co-three">
+								<li class="active"><a href="http://www.gginformatica.com.br/#" data-tab="marketing">Computadores</a></li>
+								<li><a href="http://www.gginformatica.com.br/#" data-tab="analysis">Servidores</a></li>
+								<li><a href="http://www.gginformatica.com.br/#" data-tab="strategy">Notebooks</a></li>
+							</ul>
+							<div class="fh5co-tab-content active" data-tab-content="marketing">
+								<h2>Manutenção em qualquer tipo de computadores - CPU</h2>
+								<p>A manutenção relacionada a computadores é a ação, ou conjunto de ações, desencadeada visando solucionar um problema diagnosticado no computador, ou antever o problema por meio de análise de situações no funcionamento do
+									computador, relacionado a software e/ou hardware.</p>
+								<ul class="checked">
+									<li>Manutenção Preventiva</li>
+									<li>Troca de Hardware</li>
+									<li>Atualização de Sistema Windows</li>
+								</ul>
+								<p><a href="http://www.gginformatica.com.br/#" class="btn btn-info btn-outline" data-toggle="modal" data-target="#myModal">Entrar em contato</a></p>
+							</div>
+							<div class="fh5co-tab-content" data-tab-content="analysis">
+								<h2>Analise do problema para resolver da maneira mais rápida</h2>
+								<p>A manutenção dos servidores é a garantia que a empresa tem para evitar panes e reduzir imprevistos. Você está em frente à sua mesa, desenvolvendo um projeto muito importante, com o prazo estourando. Então, sem nenhum
+									motivo aparente, seu computador trava! Essa cena é bastante recorrente nas empresas.</p>
+								<ul class="checked">
+									<li>Manutenção Preventiva</li>
+									<li>Troca de Hardware</li>
+									<li>Atualização de Sistema Windows Server</li>
+								</ul>
+								<p><a href="http://www.gginformatica.com.br/#" class="btn btn-info btn-outline" data-toggle="modal" data-target="#myModal">Entrar em contato</a></p>
+							</div>
+							<div class="fh5co-tab-content" data-tab-content="strategy">
+								<h2>Manutenção preventiva constante é uma das melhores alternativas para que o equipamento não falhe nos momentos mais necessários</h2>
+								<p>Fazer manutenção em notebooks exige, sim, um conhecimento muito específico dependendo do problema apresentado pelo equipamento, entretanto alguns procedimentos podem ser feitos em casa mesmo, de modo que é possível
+									economizar em algumas situações.
+									Por serem aparelhos eletrônicos portáteis, ou seja, por serem carregados por seus usuários para todos os lugares e diferentes ambientes, os notebooks usualmente se desgastam mais rápido que os computadores desktop. Desta
+									forma, a manutenção preventiva constante é uma das melhores alternativas para que o equipamento não falhe nos momentos mais necessários.</p>
+								<ul class="checked">
+									<li>Manutenção Preventiva</li>
+									<li>Troca de Hardware</li>
+									<li>Atualização de Sistema Windows</li>
+								</ul>
+								<p><a href="http://www.gginformatica.com.br/#" class="btn btn-info btn-outline" data-toggle="modal" data-target="#myModal">Entrar em contato</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fh5co-2col fh5co-text">
+					<div class="fh5co-grid">
+						<div class="fh5co-grid-item" style="background-image: url(&quot;images/Computador-PNG.png&quot;); height: 387.5px;"></div>
+						<div class="fh5co-grid-item" style="background-image: url(&quot;images/service_detail_nobreak.png&quot;); height: 387.5px;"></div>
+						<div class="fh5co-grid-item" style="background-image: url(&quot;images/618ASJxKzeL.fw.png&quot;); height: 387.5px;"></div>
+						<div class="fh5co-grid-item" style="background-image: url(&quot;images/câmera-de-segurança-wi-fi.png&quot;); height: 387.5px;"></div>
+					</div>
+				</div>
+			</div> <!-- END fh5co-about -->
+			<div id="fh5co-services" data-section="services">
+				<div class="fh5co-video">
+					<a href="https://www.youtube.com/watch?v=mJTnAgZnvU4" class="popup-vimeo">
+						<i class="icon-play2"></i>
+					</a>
+					<span>Veja o Vídeo</span>
+				</div>
+				<div class="container">
+					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+						<h2>Outros Serviços</h2>
+						<p>Infraestrutura de redes, Manutenção Nobreaks, Montagem de Hacks: <code>REDE, CFTV</code> etc..</p>
+					</div>
+
+					<div class="col-md-4">
+						<div class="service">
+							<div class="icon"><i class="glyphicon glyphicon-barcode"></i></div>
+							<h3>CABEAMENTO ESTRUTURADO</h3>
+							<p>Organização dos cabos utilize redes de comunicação é necessário aderir a um cabeamento estruturado.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="service">
+							<div class="icon"><i class="glyphicon glyphicon-off"></i></div>
+							<h3>MANUTENÇÃO NOBREAKS</h3>
+							<p>Oferecemos a nossos clientes total suporte para eventuais manutenções em seus nobreaks.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="service">
+							<div class="icon"><i class="glyphicon glyphicon-modal-window"></i></div>
+							<h3>MONTAGEN DE HACKS</h3>
+							<p>Montamos Hacks para REDES, SERVIDORES e CFTV, em qualquer ambiente</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="service">
+							<div class="icon"><i class="glyphicon glyphicon-facetime-video"></i></div>
+							<h3>INSTALAÇÕES CAMERAS</h3>
+							<p>Instalações de Cameras de Segurança, em todos os níveis de controle e visibilidade</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="service">
+							<div class="icon"><i class="glyphicon glyphicon-link"></i></div>
+							<h3>AUTOMAÇÃO COMERCIAL</h3>
+							<p>Sistema de automação comercial pronto para uso em restaurantes, lojas, bares, padarias e mercados</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="service">
+							<div class="icon"><i class="glyphicon glyphicon-info-sign"></i></div>
+							<h3>SUPORTE TI</h3>
+							<p>Suporte TI para empresas Pequenas, Médias e Grandes em qualquer ambiente de trabalho relacionado a TI</p>
+						</div>
+					</div>
+
+
+					<div class="col-md-12 text-center">
+						<p><a href="http://www.gginformatica.com.br/#" class="btn btn-info btn-outline" data-toggle="modal" data-target="#myModal">PRECISA DE AJUDA?</a></p>
+					</div>
+				</div>
+			</div> <!-- END fh5co-services -->
+			<div id="fh5co-gallery">
+				<a href="http://www.gginformatica.com.br/images/143142.png" class="fh5co-item image-popup" style="background-image: url(images/143142.png)">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-copy">
+						<div class="fh5co-copy-inner">
+							<h2>Rede Estruturada</h2>
+							<h3>Racks em Geral</h3>
+						</div>
+					</div>
+				</a>
+				<a href="http://www.gginformatica.com.br/images/4e7cb450e4bd7a407146c65b7521ce69.png" class="fh5co-item image-popup" style="background-image: url(images/4e7cb450e4bd7a407146c65b7521ce69.png)">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-copy">
+						<div class="fh5co-copy-inner">
+							<h2>Cabeamento de REDE</h2>
+							<h3>Em todas as Categorias Cat5,6e etc... </h3>
+						</div>
+					</div>
+				</a>
+				<a href="http://www.gginformatica.com.br/images/manu_gg_info.jpg" class="fh5co-item image-popup" style="background-image: url(images/manu_gg_info.jpg)">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-copy">
+						<div class="fh5co-copy-inner">
+							<h2>Manutenção</h2>
+							<h3>PC, Notebooks e Servidores</h3>
+						</div>
+					</div>
+				</a>
+				<a href="http://www.gginformatica.com.br/images/img_4.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_4.jpg)">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-copy">
+						<div class="fh5co-copy-inner">
+							<h2>Automação Comercial</h2>
+							<h3>Sistemas de Controle, Lojas Diversas</h3>
+						</div>
+					</div>
+				</a>
+				<a href="http://www.gginformatica.com.br/images/monitoramento_gg.jpeg" class="fh5co-item image-popup" style="background-image: url(images/monitoramento_gg.jpeg)">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-copy">
+						<div class="fh5co-copy-inner">
+							<h2>Cameras Monitoramento</h2>
+							<h3>Serviço Externo e Interno</h3>
+						</div>
+					</div>
+				</a>
+				<a href="http://www.gginformatica.com.br/images/cameraseguranca.jpg" class="fh5co-item image-popup" style="background-image: url(images/cameraseguranca.jpg)">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-copy">
+						<div class="fh5co-copy-inner">
+							<h2>Cameras Monitoramento</h2>
+							<h3>Via Pc, Celular</h3>
+						</div>
+					</div>
+				</a>
+				<a href="http://www.gginformatica.com.br/images/como-escolher-sistema-de-camera-seguranca-residencial.jpg" class="fh5co-item image-popup" style="background-image: url(images/como-escolher-sistema-de-camera-seguranca-residencial.jpg)">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-copy">
+						<div class="fh5co-copy-inner">
+							<h2>Cameras Monitoramento</h2>
+							<h3>Via Pc, Celular</h3>
+						</div>
+					</div>
+				</a>
+				<a href="http://www.gginformatica.com.br/images/estender500-o-que-e-automacao-comercial-e-como-ela-pode-ajudar-uma-empresa.jpg" class="fh5co-item image-popup" style="background-image: url(images/estender500-o-que-e-automacao-comercial-e-como-ela-pode-ajudar-uma-empresa.jpg)">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-copy">
+						<div class="fh5co-copy-inner">
+							<h2>Automação Comercial</h2>
+							<h3>Sistemas de Controle, Lojas Diversas</h3>
+						</div>
+					</div>
+				</a>
+			</div> <!-- END fh5co-gallery -->
+			<div id="fh5co-team" data-section="team">
+				<div class="container">
+					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+						<h2>Ambientes e Lojas</h2>
+						<p> GG Possui <code>2 lojas</code> e <code>1 Central de atendimento</code> para suporte em TI, Sistemas Automação </p>
+					</div>
+					<div class="col-md-4">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-6 col-md-6" style="text-align:right; text-decoration: none;"><a href="https://www.facebook.com/gginformaticaresende?mibextid=ZbWKwL" target="_blank"><i class="icon-facebook" style="font-size:40px;"></i></a></div>
+								<div class="col-xs-6 col-md-6" style="text-align:left;text-transform: none !important;"><a href="https://www.instagram.com/_gg_informatica_/" target="_blank"><i class="icon-instagram" style="font-size:40px;"></i></a></div>
+							</div>
+						</div>
+						<div class="person" style="border-radius:40px !important; border: 1px solid #09B2CF;">
+							<img src="./index_files/1065888-blue-wallpaper-hd.fw.png" alt="" class="img-responsive">
+							<h3>Loja GG Alegria</h3>
+							<h4>Acessórios e Periféricos de informática
+								<br><code><i class="icon-whatsapp" style=" font-size:15px;"></i> 24 99269-9300</code>
+							</h4>
+							<p>Xerox, Impressão, Roteadores, switchs etc...</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="person" style="border-radius:40px !important; border: 1px solid #09B2CF;">
+							<img src="./index_files/1065888-blue-wallpaper-hd.fw.png" alt="" class="img-responsive">
+							<h3>GG Nobreak</h3>
+							<h4>Manutenção Nobreak, Tonners
+								<br><code><i class="icon-whatsapp" style=" font-size:15px;"></i> 24 99905-8549</code>
+							</h4>
+							<p>Vendas Nobreaks, Tonners, cameras e serviços etc...</p>
+						</div>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-6 col-md-6" style="text-align:right; text-decoration: none;"><a href="https://www.facebook.com/gginformaticaresende?mibextid=ZbWKwL" target="_blank"><i class="icon-facebook" style="font-size:40px;"></i></a></div>
+								<div class="col-xs-6 col-md-6" style="text-align:left;text-transform: none !important;"><a href="https://www.instagram.com/gg_nobreaks/" target="_blank"><i class="icon-instagram" style="font-size:40px;"></i></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-6 col-md-6" style="text-align:right; text-decoration: none;"><a href="https://www.facebook.com/gginformaticaresende?mibextid=ZbWKwL" target="_blank"><i class="icon-facebook" style="font-size:40px;"></i></a></div>
+								<div class="col-xs-6 col-md-6" style="text-align:left;text-transform: none !important;"><a href="https://www.instagram.com/_gg_informatica_/" target="_blank"><i class="icon-instagram" style="font-size:40px;"></i></a></div>
+							</div>
+						</div>
+						<div class="person" style="border-radius:40px !important; border: 1px solid #09B2CF;">
+							<img src="./index_files/1065888-blue-wallpaper-hd.fw.png" alt="" class="img-responsive">
+							<h3>Suporte TI</h3>
+							<h4>Suporte TI, Automação e Manutenção
+								<br><code><i class="icon-whatsapp" style=" font-size:15px;"></i> 24 99825-4534</code>
+							</h4>
+							<p>Suporte para Automação Comercial, Computadores, Notebooks e Sistemas</p>
+						</div>
+					</div>
+				</div>
+			</div> <!-- END fh5co-team -->
+			<div id="fh5co-contact" data-section="contact">
+				<iframe src="./index_files/embed.html" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div id="fh5co-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p>
+								<small>
+									<b>
+										<code>Comercial: (24) 3321-1500</code><br>
+										<i class="icon-whatsapp"></i>&nbsp;&nbsp;(24) 999555140
+									</b>
+								</small>
+							</p>
+							<div class="divider"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<p>
+								<small>© 2022 Todos os direitos reservados, GG Informática</small>
+							</p>
+						</div>
+						<div class="col-md-6">
+							<ul class="fh5co-social">
+								<li style="font-size: 15px !important;">R. Nossa Sra. de Fátima, 120 - Paraíso, Resende - RJ, 27536-220</li>
+								<!-- <li><a href="https://www.facebook.com/gginformaticaresende?mibextid=ZbWKwL" target="_blank"><i class="icon-facebook" style="font-size:40px;"></i></a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="gototop js-top">
+		<a href="http://www.gginformatica.com.br/#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="./index_files/jquery.min.js.transferir"></script>
+	<!-- jQuery Easing -->
+	<script src="./index_files/jquery.easing.1.3.js.transferir"></script>
+	<!-- Bootstrap -->
+	<script src="./index_files/bootstrap.min.js.transferir"></script>
+	<!-- Waypoints -->
+	<script src="./index_files/jquery.waypoints.min.js.transferir"></script>
+	<!-- Stellar Parallax -->
+	<script src="./index_files/jquery.stellar.min.js.transferir"></script>
+	<!-- Magnific Popup -->
+	<script src="./index_files/jquery.magnific-popup.min.js.transferir"></script>
+	<script src="./index_files/magnific-popup-options.js.transferir"></script>
+	<!-- Main JS -->
+	<script src="./index_files/main.js.transferir"></script>
+	<script>
+		$(document).ready(function () {
+			$('#sendmail').submit(function () {
+				$.ajax({
+					type: 'POST',
+					url: 'cpu.asp',
+					data: $(this).serialize(),
+					success: function (data) {
+						if (data == 0) {
+							$('#myModal').modal('hide'); //esconde o modal Formulario
+							$("#sendmail").trigger("reset");//reseta o formulario
+							$('#mySmall').modal('show');//mostra o modal aviso 
+						} else {
+							alert('Algo deu Errado ' + data);
+						}
+					}
+				});
+				return false;
+			});
+		});
+	</script>
+
+
+
+</body></html>
